@@ -1,0 +1,22 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: springclud-zuul-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+
+#路由访问映射规则
+zuul:
+  prefix: /whale
+#  ignored-services: "*"
+  routes:
+    springcloud-dept: /dept-service/**
+  ignored-patterns: /*-dept/**

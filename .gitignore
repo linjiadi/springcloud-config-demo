@@ -1,0 +1,18 @@
+# Project exclude paths
+/parent/api/target/
+/parent/config-sever/target/
+/parent/consumer-80/target/
+/parent/consumer-hystrix-dashboard/target/
+/parent/dept-provider-8001/target/
+/parent/dept-provider-8002/target/
+/parent/dept-provider-8003/target/
+/parent/dept-provider-hystrix-8001/target/
+/parent/eureka-7001/target/
+/parent/eureka-7002/target/
+/parent/eureka-7003/target/
+/parent/springcloud-zuul-9527/target/
+/springcloud-parent/provider-8001/target/
+/springcloud-parent/springcloud-api/target/
+/springcloud-parent/springcloud-consumer/target/
+/springcloud-parent/springcloud-eureka/target/
+/springcloud-parent/springcloud_zuul/target/
